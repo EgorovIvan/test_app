@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.wrapper {
+    display: flex;
+}
+
+.text-task {
+    width: 500px;
+    height: auto;
+    margin: 20px 60px 60px 60px;
+    font-size: 18px;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-solution {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 40px;
+    width: 800px;
+    height: 800px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.comment {
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 240px;
+    margin: 40px;
+    padding: 40px;
+    border: 1px solid darkgrey;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 10px;
+    border: 1px solid darkgrey;
+}
+
+.filter-item {
+    width: 190px;
+    height: 35px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.container-table {
+    height: 670px;
+}
+
+.table {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid darkgrey;
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin: 0;
+}
+
+.table-cell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 1px solid darkgrey;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-page {
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.active, .button-page:hover {
+    text-decoration: underline;
+}
