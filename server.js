@@ -33,6 +33,8 @@ conn.query("SELECT * FROM public.table", (err, q) => {
     conn.end();
 });
 
+
+
 //Запуск сервера
 app.listen(4000, ()=>console.log("Сервер запущен..."));
  
